@@ -1,0 +1,94 @@
+.Services {
+  display: flex;
+  height: 100%;
+  padding: 10px 40px;
+
+  flex-direction: column;
+}
+
+.services__hero {
+  border-bottom: 1px solid rgb(219, 219, 219);
+  padding-bottom: 60px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.services__hero h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.services__hero p {
+  max-width: 600px;
+  color: rgb(130, 130, 130);
+  line-height: 1.3;
+}
+
+.services__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.services__listItem {
+  display: flex;
+
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  padding: 40px 0;
+  padding-bottom: 80px;
+}
+
+.services__listItemLeft {
+  max-width: 600px;
+  padding-right: 150px;
+}
+
+.services__listItemRight {
+  display: flex;
+}
+
+.services__listItemRight img {
+  width: 360px;
+  height: 420px;
+  margin: 0 10px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.services__listItemRight img:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.services__listItem button {
+  padding: 10px 25px;
+  width: fit-content;
+  border: none;
+  border-radius: 50px;
+  background-color: black;
+  cursor: pointer;
+}
+
+.services__listItem button a {
+  text-decoration: none !important;
+  color: white;
+}
+
+.services__listItem h2 {
+  font-weight: 500;
+  margin-bottom: 25px;
+  font-size: 35px;
+}
+
+.services__listItem p {
+  margin-bottom: 20px;
+  color: rgb(130, 130, 130);
+  line-height: 1.3;
+}

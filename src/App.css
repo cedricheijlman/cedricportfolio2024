@@ -7,10 +7,22 @@
 .App {
   width: 100%;
   display: flex;
-  align-items: center;
+
   justify-content: space-between;
-  height: 100vh;
   flex-direction: column;
-  color: white;
+  color: rgb(0, 0, 0);
+}
+
+.upperBar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 150px;
   background-color: black;
+}
+
+.upperBar p {
+  font-size: 12px;
+  color: rgb(127, 124, 124);
+  margin-right: 25px;
+  font-weight: 500;
 }

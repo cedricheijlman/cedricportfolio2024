@@ -1,0 +1,17 @@
+.under__footer {
+  background-color: black;
+  color: white;
+  padding: 15px 35px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  border-top-left-radius: 50px;
+}
+
+.under__footer div {
+  display: flex;
+}
+
+.under__footer div p {
+  margin: 0 10px;
+}
